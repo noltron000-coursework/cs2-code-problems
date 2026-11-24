@@ -1,14 +1,17 @@
-# Tweet Generator
-There are several corpora used for this project. Each of them have a character count appended near the end, indicating how difficult it would be for this program to analyze it. For example, dracula_850 has 850 characters, thus making it a difficult for this program to analyze. The default is sherlock_300.
+# CS 2 Code Problems
+A collection of coding challenges and problems for the CS 2 course covering text processing, probability, and software architecture.
 
-> use `git add .; git commit -m "message";git push;git push heroku` when updating — its important to update heroku!
+## Getting Started
+See [INSTRUCTIONS.md](INSTRUCTIONS.md) for the course schedule and learning objectives.
 
-Run locally with `python -m flask --app src.app run`; run tests with `python -m unittest discover -s tests`.
+## Development
 Python 3.7 or newer is required.
-Run lint with `ruff check .`.
+Run tests with:
+```bash
+python -m unittest discover -s tests
+```
 
-## Website
-https://tweet-generator-nak.herokuapp.com/
-
-## Twitter Account
-https://twitter.com/frankensteinen1
+Run lint with:
+```bash
+ruff check .
+```
